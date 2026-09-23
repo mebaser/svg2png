@@ -1,5 +1,7 @@
 # svg2png
 
+**한국어** | [English](README.en.md)
+
 Finder 에서 SVG 파일을 우클릭해 바로 PNG 로 바꾸는 macOS 도구입니다.
 
 렌더링은 WebKit(Safari 와 같은 엔진)이 담당하므로 그라디언트·필터·마스크·내부 CSS·
@@ -105,6 +107,8 @@ SVG2PNG_DEBUG=1 "$HOME/Library/Application Support/svg2png/bin/svg2png" 파일.s
 
 Desktop·Documents·Downloads 안의 파일을 처음 변환할 때 macOS 가 폴더 접근 권한을
 물어볼 수 있습니다. 허용해야 PNG 를 만들 수 있습니다.
+"PNG로 변환…" 메뉴는 처음 쓸 때 '자동화' 권한을 물어볼 수 있습니다. 거부해도 대화상자는 뜨지만,
+허용하면 대화상자가 앞으로 나와 바로 선택할 수 있습니다.
 
 ## 제거
 
@@ -113,3 +117,7 @@ Desktop·Documents·Downloads 안의 파일을 처음 변환할 때 macOS 가 �
 ```
 
 변환해 둔 PNG 파일은 지우지 않습니다.
+
+## 라이선스
+
+MIT
